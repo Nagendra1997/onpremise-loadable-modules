@@ -18,7 +18,7 @@ The complete documentation for Mesibo Modules is availble [here](https://mesibo.
 
 - [Chatbot](https://github.com/mesibo/onpremise-loadable-modules/tree/master/chatbot) Chatbot module to analyze messages using various AI and machine learning tools like Tensorflow, Dialogflow, etc. and send an automatic reply. Sample Chatbot Module provides an example using [Dialogflow](https://dialogflow.com)
 
-- [Javascript](https://github.com/mesibo/onpremise-loadable-modules/tree/master/js) JavaScript Module to load and call functions in [ECMAScript](http://www.ecma-international.org/ecma-262/5.1/). Sample Javascript Module uses the embeddable JS Engined [Duktape](https://duktape.org)
+- [Javascript](https://github.com/mesibo/onpremise-loadable-modules/tree/master/js) JavaScript Module to load and call functions in [ECMAScript](http://www.ecma-international.org/ecma-262/5.1/). Sample Javascript Module uses the embeddable JS Engine [Duktape](https://duktape.org)
 
 ## Compiling Modules
 To compile a Mesibo module, open the sample MakeFile provided in each repo. Change the MODULE to <module name>.
