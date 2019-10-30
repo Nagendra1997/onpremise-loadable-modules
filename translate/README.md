@@ -10,7 +10,7 @@ This  Sample Translate Module provides an example using **Google Translate**
 
 - The complete documentation for Mesibo Modules is available [here](https://mesibo.com/documentation/loadable-modules/)
 
-- For a basic understanding of how Mesibo Modules work refer the source code for [Skeleton Module](https://github.com/Nagendra1997/mesibo-documentation/blob/master/skeleton.md)  
+- For a basic understanding of how Mesibo Modules work refer the source code for [Skeleton Module](https://github.com/mesibo/onpremise-loadable-modules/tree/master/skeleton)
 
 ## Overview of  Translate Module
 -  Translation configuration containing : Endpoint/base url for making REST call, target language, source language, access token is provided in the module configuration file ( Refer `sample.conf` )
@@ -318,7 +318,7 @@ static int translate_process_message(mesibo_module_t *mod, mesibo_message_params
 
 ### 6. Extracting the translated text
 
-The response for the POST request is received in the HTTP callback function passed to `mesibo_http`. You may get the response in multiple chunks. Hence you need to store the response data into a buffer untill the complete response is received. 
+The response for the POST request is obtained in the HTTP callback function passed to mesibo_http. The response may be recieved in multiple chunks. Hence the response data is stored in a buffer untill the complete response is received.
 
 Google Translate sends the response as a JSON string with the response text encoded in the field `translatedText`. 
 Hence, translated text needs to be extracted from the JSON string before we can send it to the recipient. A helper functon `mesibo_util_json_extract` is used to extract the translated text from the JSON response.
