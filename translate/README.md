@@ -8,7 +8,7 @@ This  Sample Translate Module provides an example using **Google Translate**
 
 - You can download the source code and compile it to obtain the module - a shared library file and then load it. 
 
--The complete documentation for Mesibo Modules is available [here](https://mesibo.com/documentation/loadable-modules/)
+- The complete documentation for Mesibo Modules is available [here](https://mesibo.com/documentation/loadable-modules/)
 
 - For a basic understanding of how Mesibo Modules work refer the source code for [Skeleton Module](https://github.com/Nagendra1997/mesibo-documentation/blob/master/skeleton.md)  
 
