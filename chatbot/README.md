@@ -102,7 +102,7 @@ The chatbot module is configured as follows:
 
 ```
 module chatbot{
-project = <Project Name>
+project = <Project ID>
 session = <Session ID>
 endpoint = <Dialogflow REST Endpoint>
 access_token = <Service Account key>
@@ -115,7 +115,7 @@ where,
 - `project`, GCP Project ID that contains your dialogflow chatbot.
 - `session`, The Session ID for the queries being sent . 
 - `endpoint`, The dialogflow REST endpoint to which your query will be sent
-- `access_token`, access token linked with your project. In this example we will be passing dialogflow client access token in the auth header like so `Authorisation: Bearer <access token>.`
+- `access_token`, access token linked with your project. 
 - `address`, chatbot address. In your Mesibo Application, create a user that you can refer to as a chatbot endpoint user. 
 - `log`, Log level for printing to mesibo container logs
 
