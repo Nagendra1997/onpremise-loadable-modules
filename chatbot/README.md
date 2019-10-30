@@ -3,11 +3,14 @@
 
 This repository contains the source code for Chatbot Module. Chatbot module analyzes messages using various AI and machine learning tools like Tensorflow, Dialogflow, etc. and sends an automatic reply.  
 
-To build chatbots, you can use any chatbot provider of your choice such as Dialogflow, IBM Watson,Rasa,etc and connect with them through REST endpoints. This Chatbot Module provides an example using **Dialogflow**
+To build chatbots, you can use any chatbot provider of your choice such as Dialogflow, IBM Watson,Rasa,etc and connect with them through REST endpoints. 
+This Chatbot Module provides an example using **Dialogflow**
 
-You can download the source and compile it to obtain the module- a shared library file. 
+- You can download the source and compile it to obtain the module- a shared library file. 
 
-Refer to the [Skeleton Module](https://github.com/Nagendra1997/mesibo-documentation/blob/master/skeleton.md) for a basic understanding of how Mesibo Modules work. The complete documentation for Mesibo Modules is available [here](https://mesibo.com/documentation/loadable-modules/)
+- The complete documentation for Mesibo Modules is available here
+
+- Refer to the [Skeleton Module](https://github.com/mesibo/onpremise-loadable-modules/tree/master/skeleton) for a basic understanding of how Mesibo Modules work. The complete documentation for Mesibo Modules is available [here](https://mesibo.com/documentation/loadable-modules/)
 
 
 ## Overview of the Chatbot Module
