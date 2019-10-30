@@ -1,12 +1,6 @@
 # Loadable Modules - add your own custom features to Mesibo
 
-Imagine, if you could have the ability to process every message between your users, or could add custom features and functionalities. For example, create chatbots, filter profanity, translate messages between sender and recipient, analyze messages with machine learning and AI tools, and more. This can open up a plethora of creative possibilities for your apps.  Now with mesibo modules, all of this is possible!.
-
-Mesibo is designed “**by Developers for Developers**!”. As developers, we understand that a platform is very limited unless it allows its users to build more features and functionalities on it. This is how Mesibo loadable modules come in. 
-
-Mesibo loadable modules let you expand mesibo by adding your own features and functionalities. You can build powerful chatbots, filters, remotely communicate with hardware for IoT and robotics, integrate with Machine learning and Scientific computing backend such as Tensorflow, Dialogflow, Matlab, etc. and much more, keeping your data secure and private in your own premises or private cloud.
-
-This repository contains the Sample Loadable Modules that you can use as reference.Quickly build and load Sample Mesibo modules to see Mesibo Modules in action! 
+This repository contains the Sample Loadable Modules that you can use as reference, to quickly see Mesibo Modules in action! 
 
 The complete documentation for Mesibo Modules is available [here](https://mesibo.com/documentation/loadable-modules/)
 
