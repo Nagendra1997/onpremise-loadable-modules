@@ -9,7 +9,6 @@ You can download the source and compile it to obtain the module- a shared librar
 
 Refer to the [Skeleton Module](https://github.com/Nagendra1997/mesibo-documentation/blob/master/skeleton.md) for a basic understanding of how Mesibo Modules work. The complete documentation for Mesibo Modules is available [here](https://mesibo.com/documentation/loadable-modules/)
 
-![Module Chatbot Sample](module_chat_bot.jpg)
 
 ## Overview of  Chatbot Module
 -  Chatbot configuration containing :project name, session id, Endpoint/base url for making REST call, access token (Service account key  for authenticating your requests) is provided in the module configuration (In the file `mesibo.conf`).
